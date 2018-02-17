@@ -1,0 +1,15 @@
+Signed up with GIT on GitHub.com
+Setting up Public and Private keys
+
+	•	Initializing Local working directory - git init
+	•	Configuring User name - git —global user.name “<user name>”
+	•	Configuring user e-mail - git --global user.email “<email address>” Configuring these will allow GIT to recognize the user who is committing
+	•	Check the status - git status
+	•	adding individual file to staging area - git add <file name>
+	•	adding all the files to staging area - git add .
+	•	to commit files in staging area - got commit -m “<commit version comments>”
+	•	to check the commit history - git log
+	•	to undo the action from last git add / move files from staging area to working directory - git reset
+	•	Need to create a repository on the github
+	•	to connect to a repository URL from the local - git remote add origin https://github.com/pharshap/Tutorial.git
+	•	to push committed files to remote repository - git push -u origin master 
